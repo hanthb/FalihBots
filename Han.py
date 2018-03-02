@@ -5,9 +5,8 @@ from Han.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
-cl = LINETCR.LINE()
+cl = Han.LINE()
 cl.login(token='EoVsx96DKVTfMibK9223.YaRX2iR2ipQ318ONNpmTeW.vyRiZhemYE7pSjG18YSDYN9iDqWni48nCpa6qB8UCr4=')
-#cl.login(token='')
 cl.loginResult()
 print "===[Login Success]==="
 
